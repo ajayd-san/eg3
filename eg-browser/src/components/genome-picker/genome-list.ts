@@ -18,6 +18,12 @@ export const GENOME_LIST: Genome[] = [
         "croppedUrl": "cropped/mouse.jpeg",
         "versions": ["mm39", "mm10", "mm9"]
     },
+    {
+        "name": "Fruit Fly",
+        "logoUrl": "default/fruit_fly.png",
+        "croppedUrl": "cropped/fruit_fly.jpeg",
+        "versions": ["dm6"]
+    },
 ]
 
 export const versionToLogoUrl: Record<string, { logoUrl: string, croppedUrl: string | undefined }> = {};
