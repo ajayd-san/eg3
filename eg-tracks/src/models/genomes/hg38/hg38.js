@@ -504,15 +504,6 @@ const publicHubData = {
 };
 
 const publicHubList = [
-  {
-    collection: "aws testing public hub",
-    name: "abc",
-    numTracks: 1,
-    oldHubFormat: false,
-    url: "https://wang-genomics-data.s3.us-east-2.amazonaws.com/hub.json",
-    description:
-      "modbed format methylation track on PacBio and ONT platforms, for 6 sample sources.",
-  },
 ];
 
 const HG38 = {
